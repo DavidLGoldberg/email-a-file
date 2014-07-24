@@ -8,6 +8,7 @@ class EmailAFileView extends View
 
   initialize: (serializeState) ->
     atom.workspaceView.command "email-a-file:email-active-file", => @emailActiveFile()
+    atom.workspaceView.command "email-a-file:email-selected-file", => @emailSelectedFile()
 
   # Returns an object that can be retrieved when package is activated
   serialize: ->
@@ -15,6 +16,9 @@ class EmailAFileView extends View
   # Tear down any state and detach
   destroy: ->
     @detach()
+
+  emailSelectedFile: ->
+    @emailActiveFile()
 
   emailActiveFile: ->
     console.log "EmailAFileView was toggled!"

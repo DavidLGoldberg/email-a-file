@@ -3,12 +3,16 @@
   "main": "./lib/email-a-file",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "activationEvents": ["email-a-file:email-active-file"],
+  "activationEvents": [
+    "email-a-file:email-active-file",
+    "email-a-file:email-selected-file"
+  ],
   "repository": "https://github.com/atom/email-a-file",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
   "dependencies": {
+    "nodemailer": "^1.0.4"
   }
 }

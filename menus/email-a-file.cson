@@ -3,6 +3,10 @@
   '.overlayer':
       'Email current file': 'email-a-file:email-active-file'
 
+'context-menu':
+  '.tree-view .file':
+    'Email this file': 'email-a-file:email-selected-file'
+
 'menu': [
   {
     'label': 'Packages'
