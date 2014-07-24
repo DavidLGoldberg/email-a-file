@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Email current file': 'email-a-file:email-active-file'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Email a File'
+      'submenu': [
+        { 'label': 'Email Active File', 'command': 'email-a-file:email-active-file' }
+      ]
+    ]
+  }
+]
