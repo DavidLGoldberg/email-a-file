@@ -1,5 +1,8 @@
-# email-a-file package
+# Email-A-File Package
+(WORK IN PROGRESS)
 
-A short description of your package.
+An Atom package for emailing a copy of the current working file to your
+default email of choice.  One click.
 
-![A screenshot of your spankin' package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Right click on a file on the tree view, or use the file's context menu.
+
